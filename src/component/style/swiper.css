@@ -1,0 +1,306 @@
+.swiper-porto {
+    width: 100%;
+    height: 1100px;
+    background-image: url('../img/background/bg-section.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.description-job {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+}
+
+
+.description-job h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    height: auto;
+    margin-top: 40px;
+}
+.description-job h3 {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    height: auto;
+    margin-top: 40px;
+
+}
+.description-job h4 {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    height: auto;
+    margin-top: 40px;
+
+}
+
+.desc {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    text-align: left;
+    margin: 20px 0 30px 0;
+    padding: 10px;
+}
+
+.job {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+    margin: 20px 0 0 0;
+    padding: 10px;
+}
+
+/* 
+.description-job ul {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    width: 80%;
+    margin-top: 5px;
+}
+
+.description-job li {
+    display: block;
+    color: #ffffff;
+    background-color: #4CAF50;
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid white;
+
+}
+
+.description-job li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.description-job li:hover:not(.active) {
+    background-color: #555;
+    color: white;
+} */
+@media only screen and (max-width: 600px){
+    .swiper-porto {
+        width: 100%;
+        height: 1050px;
+        background-image: url('../img/background/bg-section.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 30px 50px 30px;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+
+    .img-swiper {
+        width: 80%;
+    }
+
+    .description-job {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px ;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .description-job h2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 260px;
+        font-size: 18px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .description-job h3 {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 14px;
+        width: 260px;
+        height: auto;
+        margin-top: 20px;
+    
+    }
+    .description-job h4 {
+        margin: 0 auto;
+        text-align: left;
+        width: 260px;
+        font-size: 12px;
+        height: 80px;
+        margin-top: 20px ;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .description-job {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px ;
+        padding: 30px;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .description-job h2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 500px;
+        font-size: 24px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .description-job h3 {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 20px;
+        width: 500px;
+        height: auto;
+        margin-top: 20px;
+    
+    }
+    .description-job h4 {
+        margin: 0 auto;
+        text-align: left;
+        width: 500px;
+        font-size: 16px;
+        height: 80px;
+        margin-top: 20px ;
+    }
+    
+}
+@media only screen and (min-width: 768px) {
+    .description-job {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px ;
+        padding: 30px;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .description-job h2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 670px;
+        font-size: 24px;
+        height: 40px;
+        margin-top: 40px;
+    }
+    .description-job h3 {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 20px;
+        width: 670px;
+        height: auto;
+        margin-top: 40px;
+    
+    }
+    .description-job h4 {
+        margin: 0 auto;
+        text-align: left;
+        width: 670px;
+        font-size: 16px;
+        height: 80px;
+        margin-top: 40px ;
+    }
+    
+}
+@media only screen and (min-width: 992px) {
+    .description-job {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px ;
+        padding: 30px;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .description-job h2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 700px;
+        height: 40px;
+        margin-top: 40px;
+    }
+    .description-job h3 {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 22px;
+        width: 800px;
+        height: auto;
+        margin-top: 40px;
+    
+    }
+    .description-job h4 {
+        margin: 0 auto;
+        text-align: left;
+        width: 800px;
+        font-size: 18px;
+        height: 80px;
+        margin-top: 40px ;
+    }
+    
+}
+@media only screen and (min-width: 1800px) {
+    .description-job {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px ;
+        padding: 30px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .description-job h2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 700px;
+        height: 40px;
+        margin-top: 40px;
+    }
+    .description-job h3 {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 28px;
+        width: 800px;
+        height: auto;
+        margin-top: 40px;
+    }
+    .description-job h4 {
+        margin: 0 auto;
+        text-align: left;
+        width: 800px;
+        font-size: 24px;
+        height: 80px;
+        margin-top: 40px ;   
+    }
+    
+}

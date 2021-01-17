@@ -1,0 +1,14 @@
+/* .Nav{
+position: fixed;
+} */
+.logoNavbar {
+    width: 150px;
+}
+
+
+@media (max-width:300px) {
+    .logoNavbar {
+        width: 100px;
+    }
+}
+
