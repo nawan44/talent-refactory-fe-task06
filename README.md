@@ -24,6 +24,16 @@ https://drive.google.com/folderview?id=1T2IEw5O009UfIJabT-0TcSOA2arPD7a4
       <li>Styling :Reactstrap</li>  
         <li>Slider Image : SwiperJs</li>  
            <li>Interaksi Data : Fetch</li>  
+  </ul>
+  <ul>
+  Raw Data 
+  <li>https://raw.githubusercontent.com/nawan44/tr-fe-json/main/datapt.json</li>
+  <li>
+  https://raw.githubusercontent.com/nawan44/tr-fe-json/main/about.json
+  </li>
+  <li>
+  https://raw.githubusercontent.com/nawan44/tr-fe-json/main/portofolio.json
+  </li>
   </ul>  
   </li>
     
