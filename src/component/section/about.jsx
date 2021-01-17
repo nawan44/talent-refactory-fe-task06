@@ -1,22 +1,32 @@
-import React from 'react';
-import './style/about.css';
-import '../../style/App.css'
+import React, { useEffect, useState } from "react";
+import Axios from "axios";
 
+import "./style/about.css";
+import "../../style/App.css";
 
-class About extends React.Component {
-    render() {
-        return (
-            <div id="about">
-                <h1>ABOUT</h1>
+function About() {
+  const [data, setData] = useState([]);
 
-                <h5>Key To Success</h5>
-                <hr className="line-section" />
-                <hr className="line-section" />
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        );
-    }
+  useEffect(() => {
+    Axios.get(
+      "https://raw.githubusercontent.com/nawan44/tr-fe-json/main/portofolio_pt.json"
+    ).then((res) => {
+      setData(res.data);
+    });
+  });
+  return (
+    <div id="about">
+      <h1>ABOUT</h1>
+      {data.map((item) => (
+        <h5>
+          {item.judul_about}
+          <hr className="line-section" />
+          <hr className="line-section" />
+          <p>{item.desk_about}</p>
+        </h5>
+      ))}
+    </div>
+  );
 }
 
 export default About;
