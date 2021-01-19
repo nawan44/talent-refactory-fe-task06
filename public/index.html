@@ -24,6 +24,10 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    
+<!-- SWAPPER -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +43,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+<!-- Font Icon -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <!-- Initialize Swiper -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
   </body>
 </html>
