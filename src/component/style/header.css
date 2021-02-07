@@ -1,23 +1,80 @@
 .header {
-    width: 100%;
-    height: auto;
-    background-image: url('../img/background/bg-header.jpg');
-    height: 900px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  width: 100%;
+  height: auto;
+  background-image: url("../../assets/background/bg-header.jpg");
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo-header {
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .brand-name {
-    margin: 30px 0 30px 0;
+  margin: 30px 0 30px 0;
+  width: 100%;
+  height: 50;
+  color: #ffffff;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 60px;
+  line-height: 50px;
+}
+
+.line-header {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  border-color: #ef4035;
+}
+
+.tag-line {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 35px;
+  line-height: 30px;
+}
+
+.btn-arrow i {
+  font-size: 80px;
+  color: #ffffff;
+}
+
+@media (max-width: 300px) {
+  .header {
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets/background/bg-header.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo-header {
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .brand-name {
+    margin: 10px 0 10px 0;
     width: 100%;
     height: 50;
     color: #ffffff;
@@ -25,154 +82,90 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700px;
-    font-size: 60px;
+    font-size: 30px;
     line-height: 50px;
-}
+  }
 
-.line-header {
+  .line-header {
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 500px;
+    width: 150px;
     border-color: #ef4035;
-}
+  }
 
-.tag-line {
+  .tag-line {
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 300px;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 30px;
+  }
 
-}
-
-.btn-arrow i {
-    font-size: 80px;
+  .btn-arrow i {
+    font-size: 40px;
     color: #ffffff;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets/background/bg-header.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-@media (max-width:300px) {
-    .header {
-        width: 100%;
-        height: auto;
-        background-image: url('../img/background/bg-header.jpg');
-        height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+  .logo-header {
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
 
-    }
+  .brand-name {
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: 50;
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 50px;
+  }
 
-    .logo-header {
-        margin: 0 auto;
-        width: 100px;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
+  .line-header {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    width: 150px;
+    border-color: #ef4035;
+  }
 
-    .brand-name {
-        margin: 10px 0 10px 0;
-        width: 100%;
-        height: 50;
-        color: #ffffff;
-        text-align: center;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 700px;
-        font-size: 30px;
-        line-height: 50px;
-    }
+  .tag-line {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 25px;
+    line-height: 30px;
+  }
 
-    .line-header {
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 10px;
-        width: 150px;
-        border-color: #ef4035;
-    }
-
-    .tag-line {
-        color: #ffffff;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 20px;
-        font-family: Segoe UI;
-        font-style: normal;
-        font-weight: 300px;
-        font-size: 25px;
-        line-height: 30px;
-
-    }
-
-    .btn-arrow i {
-        font-size: 40px;
-        color: #ffffff;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .header {
-        width: 100%;
-        height: auto;
-        background-image: url('../img/background/bg-header.jpg');
-        height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-    }
-
-    .logo-header {
-        margin: 0 auto;
-        width: 100px;
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-
-    .brand-name {
-        margin: 10px 0 10px 0;
-        width: 100%;
-        height: 50;
-        color: #ffffff;
-        text-align: center;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 700px;
-        font-size: 30px;
-        line-height: 50px;
-    }
-
-    .line-header {
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 10px;
-        width: 150px;
-        border-color: #ef4035;
-    }
-
-    .tag-line {
-        color: #ffffff;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 20px;
-        font-family: Segoe UI;
-        font-style: normal;
-        font-weight: 300px;
-        font-size: 25px;
-        line-height: 30px;
-
-    }
-
-    .btn-arrow i {
-        font-size: 40px;
-        color: #ffffff;
-    }
+  .btn-arrow i {
+    font-size: 40px;
+    color: #ffffff;
+  }
 }

@@ -1,14 +1,18 @@
-/* .Nav{
-position: fixed;
-} */
+.nav {
+  position: fixed;
+  width: 100%;
+  background-image: url("../../assets/background/bg-header.jpg");
+}
+.navbar {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
 .logoNavbar {
-    width: 150px;
+  width: 150px;
 }
-
-
-@media (max-width:300px) {
-    .logoNavbar {
-        width: 100px;
-    }
+@media (max-width: 300px) {
+  .logoNavbar {
+    width: 100px;
+  }
 }
-
