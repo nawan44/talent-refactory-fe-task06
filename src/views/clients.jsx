@@ -3,7 +3,7 @@ import Axios from "axios";
 
 import "./style/client.css";
 
-import "../../style/App.css";
+import "../style/App.css";
 
 const containerClient = {
   width: "100%",

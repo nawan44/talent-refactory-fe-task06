@@ -6,9 +6,11 @@ import "./style/index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Navmenu from "./component/navmenu.jsx";
+import Header from "./component/header.jsx";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <App />
     <Footer />
   </React.StrictMode>,

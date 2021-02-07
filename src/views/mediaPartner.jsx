@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 
 import "./style/media-partner.css";
-import "../../style/App.css";
+import "../style/App.css";
 
 const containerServices = {
   width: "100%",

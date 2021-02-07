@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 
 import "./style/about.css";
-import "../../style/App.css";
+import "../style/App.css";
 
 function About() {
   const [about, setAbout] = useState("");

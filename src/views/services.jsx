@@ -1,9 +1,9 @@
 import React from "react";
 import "./style/service.css";
-import "../../style/App.css";
-import services1 from "../../assets/services/1.png";
-import services2 from "../../assets/services/2.png";
-import services3 from "../../assets/services/3.png";
+import "../style/App.css";
+import services1 from "../assets/services/1.png";
+import services2 from "../assets/services/2.png";
+import services3 from "../assets/services/3.png";
 
 class Services extends React.Component {
   render() {
