@@ -22,10 +22,21 @@ const navLink = {
 const Navmenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
 
   return (
-    <div className="nav">
-      <Navbar light expand="md" className="navbar">
+    <div>
+      <Navbar className="navbar"  scrolling={colorChange ? 'navbar colorChange' : 'navbar'} dark expand="md" fixed='top'>
+
         <NavbarBrand href="/">
           <img src={logoNav} className="logoNavbar" alt=" " />
         </NavbarBrand>
